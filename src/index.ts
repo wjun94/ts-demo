@@ -1,1 +1,2 @@
-console.log("11")
+enum Color {red, blue='123', grean='123'}
+console.log(Color.grean) 
