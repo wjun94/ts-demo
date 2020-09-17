@@ -1,6 +1,9 @@
 abstract class Animal {
     // 子类必须要实现eat方法
     abstract eat(): any;
+    test() {
+        console.log('test')
+    }
 }
 
 class Dog extends Animal {
@@ -29,5 +32,6 @@ const cat = new Cat("猫")
 cat.eat()
 const dog = new Dog("狗")
 dog.eat()
+dog.test()
 
 
